@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "debug.toolBarLocation": "docked",
+    "git.confirmSync": false,
+    "window.restoreWindows": "none",
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.autofetch": true,
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+    },
+    "explorer.confirmDelete": false,
+    "files.exclude": {
+        "**/.p4": true
+    },
+    "files.associations": {
+        "Makefile.*": "makefile"
+    }
+}
