@@ -1,0 +1,25 @@
+// 将键绑定放在此文件中以覆盖默认值auto[]
+[
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "alt+b",
+        "command": "-gitlens.toggleFileBlame",
+        "when": "editorTextFocus && config.gitlens.keymap == 'alternate' && gitlens:activeFileStatus =~ /blameable/"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+insert",
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+    }
+]
