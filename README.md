@@ -23,4 +23,7 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/maste
 wget https://raw.githubusercontent.com/liooil/configs/master/zsh/.zshrc -O /tmp/.zshrc
 # install neovim
 apt install neovim
+mkdir ~/.config/nvim
+# Override default nvim config
+wget https://raw.githubusercontent.com/liooil/configs/master/nvim/init.vim -O ~/.config/nvim/init.vim
 ```
