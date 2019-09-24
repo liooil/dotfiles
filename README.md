@@ -16,7 +16,9 @@ choco install python
 # Linux
 ```bash
 apt update
-apt install zsh git
+apt install zsh git wget
 # install oh-my-zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# Override default zsh config
+wget https://raw.githubusercontent.com/liooil/configs/master/zsh/.zshrc -O /tmp/.zshrc
 ```
