@@ -1,7 +1,7 @@
 # configs
 configs for sync
 
-# Windows
+# Windows 10.1903
 ```PowerShell
 # Set Execution Policy
 Set-ExecutionPolicy AllSigned 
@@ -13,7 +13,7 @@ choco install microsoft-windows-terminal
 choco install python
 ```
 
-# Linux
+# Linux Ubuntu.18.04
 ```bash
 apt update
 apt install zsh git wget
