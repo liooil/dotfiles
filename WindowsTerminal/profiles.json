@@ -32,6 +32,8 @@
     [
         {
             "closeOnExit" : true,
+            "backgroundImage": "ms-appdata:///Roaming/Nyan.gif",
+            "backgroundImageOpacity": 0.2,
             "colorScheme" : "base16: Google (light)",
             "commandline" : "ssh.exe xiteng-code",
             "cursorColor" : "#373B41",
