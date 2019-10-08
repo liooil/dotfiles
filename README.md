@@ -26,4 +26,5 @@ apt install neovim
 mkdir ~/.config/nvim
 # Override default nvim config
 wget https://raw.githubusercontent.com/liooil/configs/master/nvim/init.vim -O ~/.config/nvim/init.vim
+apt install fortunes fortunes-zh
 ```
