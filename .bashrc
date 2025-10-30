@@ -19,6 +19,8 @@ source /usr/share/nvm/init-nvm.sh
 
 # dotfiles: 
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+source /usr/share/bash-completion/completions/git
+__git_complete dotfiles __git_main
 
 # yazi: pacman -S yazi
 function y() {
