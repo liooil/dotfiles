@@ -19,7 +19,12 @@ unset_proxy() {
 export -f unset_proxy
 
 proxy_run() {
-  $@
+  if [ $# -eq 0 ]; then
+    echo "Usage:"
+    echo "  > $0 <command>"
+  else
+    $@
+  fi
 }
 
 export -f proxy_run
