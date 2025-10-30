@@ -1,0 +1,28 @@
+#!/bin/bash
+
+_HOST=127.0.0.1
+_IP=7890
+export http_proxy="http://$_HOST:$_IP"
+export https_proxy="http://$_HOST:$_IP"
+export all_proxy="socks5://$_HOST:$_IP"
+unset _HOST
+unset _IP
+
+unset_proxy() {
+  unset http_proxy
+  unset https_proxy
+  unset all_proxy
+  unset -f unset_proxy
+  unset -f proxy_run
+}
+
+export -f unset_proxy
+
+proxy_run() {
+  $@
+}
+
+export -f proxy_run
+
+proxy_run $@
+
