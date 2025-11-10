@@ -28,7 +28,7 @@ $env.PATH = ($env.PATH | prepend ($env.HOME ++ /.cargo/bin))
 $env.EDITOR = "helix"
 alias hx = helix
 
-$env.PATH = ($envv.PATH | prepend ($env.HOME + /.local/share/gem/ruby/3.0.0/bin))
+$env.PATH = ($env.PATH | prepend ($env.HOME + /.local/share/gem/ruby/3.0.0/bin))
 
 # for webpack
 $env.NODE_OPTIONS = "--max-old-space-size=4096"

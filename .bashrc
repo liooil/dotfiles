@@ -31,3 +31,4 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+alias byobu='zellij a'
