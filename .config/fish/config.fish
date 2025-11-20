@@ -16,4 +16,6 @@ if status is-interactive
         end
         rm -f -- "$tmp"
     end
+    # bat
+    alias cat='bat -P'
 end

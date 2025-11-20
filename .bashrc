@@ -15,7 +15,7 @@ source /usr/share/nvm/init-nvm.sh
 # x-cmd: eval "$(curl https://get.x-cmd.com)"
 [ ! -f "$HOME/.x-cmd.root/X" ] || . "$HOME/.x-cmd.root/X" # boot up x-cmd.
 
-[ $USER == root ] && alias paru='runuser -u xiteng -- proxy-run paru'
+[ $USER == root ] && alias paru='proxy-run runuser -u xiteng -- paru'
 
 # dotfiles: 
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
